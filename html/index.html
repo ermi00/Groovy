@@ -1,18 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
     <link rel="stylesheet" href="/css/index.css">
     <title>Groovy</title>
 </head>
+
 <body>
-    <nav></nav>
+    <nav>
+        <ul>
+            <li><a href="#"><img class="imgIconosNav" src="/assets/iconoGroovy.png" alt="icono Grovy"></a></li>
+            <li><a href="#"><img class="imgIconosNav" src="/assets/iconoHamburguesa.png" alt="icono Hamburguesa"></a>
+            </li>
+        </ul>
+    </nav>
     <main>
-        <section>
-            <h1>We Are Groovy</h1>
+        <section class="sectionPresentacion">
+            <div class="divTituloPrincipal">
+                <h1>We <br> Create <br> What You Imagine</h1>
+            </div>
+            <model-viewer src="/modelos3D/Groovy3D.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls
+                tone-mapping="neutral" poster="poster.webp" shadow-intensity="0" auto-rotate exposure="2">
+                <div class="progress-bar hide" slot="progress-bar">
+                    <div class="update-bar"></div>
+                </div>
+            </model-viewer>
+            <button>SEE MORE</button>
+        </section>
+
+        <section class="divQuienesSomos">
+            <h1>Lorem Ipsum</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis cumque consectetur quo numquam
+                tenetur, reiciendis labore dolor. Perferendis omnis deleniti odit consequatur dolorem nam officia
+                laboriosam, suscipit culpa, corrupti rem.</p>
+            <div class="tarjetas">
+                <div class="tarjeta">
+                    <img class="imgTarjeta" src="/assets/imagenProyectos.png" alt="">
+                    <div class="tarjetaInfo">
+                        <h2>+300</h2>
+                        <span>Completed projects</span>
+                    </div>
+                </div>
+
+                <div class="tarjeta">
+                    <img class="imgTarjeta" src="/assets/imagenEmpresas.png" alt="">
+                    <div class="tarjetaInfo">
+                        <h2>+15</h2>
+                        <span>Companies</span>
+                    </div>
+                </div>
+
+                <div class="tarjeta">
+                    <img class="imgTarjeta" src="/assets/imagenClientes.png" alt="">
+                    <div class="tarjetaInfo">
+                        <h2>10mil</h2>
+                        <span>Satisfied clients</span>
+                    </div>
+                </div>
+
+                <div class="tarjeta">
+                    <img class="imgTarjeta" src="/assets/imagenProyectos.png" alt="">
+                    <div class="tarjetaInfo">
+                        <h2>+300</h2>
+                        <span>Completed projects</span>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer></footer>
 </body>
+
 </html>
