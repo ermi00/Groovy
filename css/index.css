@@ -46,7 +46,7 @@ button {
     border: none;
     background-color: black;
     color: white;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 model-viewer {
