@@ -19,7 +19,10 @@ ul {
 }
 
 .sectionPresentacion {
-    margin-top: 15%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .divTituloPrincipal {
@@ -29,24 +32,25 @@ ul {
 }
 
 .divTituloPrincipal h1 {
-    margin: 0;
-}
-
-.divTituloPrincipal h1 {
     font-weight: 600;
     font-size: 80px;
     letter-spacing: -7px;
     line-height: 65px;
+    margin: 0;
+}
+
+.divTituloPrincipal p {
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 button {
-    width: 100%;
-    padding: 15px 50px;
+    padding: 15px 60px;
     margin-top: 20px;
     border: none;
     background-color: black;
     color: white;
-    border-radius: 10px;
+    border-radius: 25px;
 }
 
 model-viewer {
@@ -55,33 +59,48 @@ model-viewer {
     height: 250px;
 }
 
-.divQuienesSomos h1 {
+.sectionServicios {
+    margin-top: 15%;
+}
+
+.sectionServicios h1 {
     letter-spacing: -2px;
     margin-bottom: 0;
+    text-align: center;
 }
 
-.tarjeta {
+.sectionServicios p {
+    text-align: center;
+}
+.divServicios{
     display: flex;
-    align-items: center;
+}
+
+.tarjetasServicios {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    border-radius: 15px;
-    background-color: white;
-    color: black;
-    padding: 10px 25px;
-    margin-top: 30px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 125px;
+    background-color: rgb(14, 14, 14);
+    color: white;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
-.imgTarjeta {
-    width: 40%;
-    object-fit: cover;
+.tarjetasServicios img {
+    width: 35px;
 }
 
-.tarjetaInfo {
-    text-align: end;
+
+.tarjetasServicios h5 {
+    text-align: left;
+    margin: 0;
 }
 
-.tarjetaInfo h2 {
-    font-size: 40px;
-    margin: 0
+.tarjetasServicios p {
+    text-align: left;
+    margin: 0;
+    font-size: 8px;
 }
