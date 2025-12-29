@@ -72,7 +72,8 @@ model-viewer {
 .sectionServicios p {
     text-align: center;
 }
-.divServicios{
+
+.divServicios {
     display: flex;
 }
 
@@ -80,6 +81,7 @@ model-viewer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 50%;
     height: 125px;
     background-color: rgb(14, 14, 14);
     color: white;
@@ -91,16 +93,92 @@ model-viewer {
 
 .tarjetasServicios img {
     width: 35px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
 }
 
 
 .tarjetasServicios h5 {
     text-align: left;
     margin: 0;
+    margin-bottom: 2px;
+    font-size: 15px;
 }
 
 .tarjetasServicios p {
     text-align: left;
     margin: 0;
     font-size: 8px;
+    line-height: 8px;
+}
+
+.sectionPortafolio {
+    margin-top: 15%;
+}
+
+.sectionPortafolio h1 {
+    letter-spacing: -2px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.sectionPortafolio p {
+    text-align: center;
+}
+
+.tarjetaPortafolio {
+    margin-top: 30px;
+    color: white;
+    border-radius: 25px;
+    background-color: black;
+    padding: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+}
+
+.tarjetaPortafolio .divImg {
+    height: 300px;
+}
+
+
+.tarjetaPortafolio img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.tarjetaPortafolio h2,
+.tarjetaPortafolio p {
+    margin: 0;
+    text-align: left;
+}
+
+.tarjetaPortafolio button {
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tarjetaPortafolio .divInfo {
+    padding: 15px 10px;
+}
+
+.tarjetaPortafolio button a {
+    text-decoration: none;
+    color: black;
+}
+
+.sectionNosotros {
+    margin-top: 15%;
+}
+
+.sectionNosotros h1 {
+    text-align: center;
+    letter-spacing: -2px;
+    margin: 0;
+    margin-top: 5px;
 }
