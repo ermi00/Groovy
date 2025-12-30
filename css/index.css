@@ -3,7 +3,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    padding: 20px;
+    margin: 0;
 }
 
 ul {
@@ -23,6 +23,8 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .divTituloPrincipal {
@@ -45,12 +47,13 @@ ul {
 }
 
 button {
-    padding: 15px 60px;
+    padding: 15px 40px;
     margin-top: 20px;
     border: none;
     background-color: black;
     color: white;
     border-radius: 25px;
+    font-size: 15px;
 }
 
 model-viewer {
@@ -61,6 +64,8 @@ model-viewer {
 
 .sectionServicios {
     margin-top: 15%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .sectionServicios h1 {
@@ -89,12 +94,11 @@ model-viewer {
     padding: 20px;
     margin: 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
 }
 
 .tarjetasServicios img {
     width: 35px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-
 }
 
 
@@ -114,6 +118,8 @@ model-viewer {
 
 .sectionPortafolio {
     margin-top: 15%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .sectionPortafolio h1 {
@@ -154,6 +160,11 @@ model-viewer {
     text-align: left;
 }
 
+.sectionPortafolio h2 {
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+}
+
 .tarjetaPortafolio button {
     text-align: center;
     background-color: white;
@@ -161,6 +172,7 @@ model-viewer {
     margin-top: 20px;
     width: 100%;
     border-radius: 10px;
+    font-size: 15px;
 }
 
 .tarjetaPortafolio .divInfo {
@@ -176,9 +188,80 @@ model-viewer {
     margin-top: 15%;
 }
 
+.sectionNosotros div {
+    margin-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
 .sectionNosotros h1 {
     text-align: center;
     letter-spacing: -2px;
     margin: 0;
-    margin-top: 5px;
+    line-height: 28px;
+}
+
+.sectionNosotros p {
+    text-align: center;
+}
+
+.sectionNosotros img {
+    width: 100%;
+}
+
+footer {
+    margin-top: 15%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+footer h1 {
+    text-align: center;
+    letter-spacing: -2px;
+    margin: 0;
+    margin-bottom: 25px;
+    line-height: 28px;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer img {
+    width: 100%;
+}
+
+footer button {
+    display: flex;
+    color: #0de3ac;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.iconWhatsapp {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.aCorreo {
+    font-size: 30px;
+    color: #0089ff9c;
+}
+
+.teclasFlotando {
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.pCopyright {
+    letter-spacing: -0.5px;
+    color: #00000042;
+    line-height: 15px;
+    font-size: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
