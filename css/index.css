@@ -175,6 +175,10 @@ model-viewer {
     font-size: 15px;
 }
 
+.btnEscritorioContacto {
+    display: none;
+}
+
 .tarjetaPortafolio .divInfo {
     padding: 15px 10px;
 }
@@ -264,4 +268,68 @@ footer button {
     font-size: 10px;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    .sectionPresentacion {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .divTituloPrincipal h1 {
+        font-size: 82px;
+    }
+
+    model-viewer {
+        height: 50vh;
+        margin: 0;
+    }
+
+    .btnMobileContacto {
+        display: none;
+    }
+
+    .btnEscritorioContacto {
+        display: block;
+        width: 80%;
+        font-size: 17px;
+        transition: 0.5s;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+    }
+
+    .btnEscritorioContacto:hover {
+        background-color: white;
+        border: solid 1px black;
+        color: black;
+        transition: 0.5s;
+        transform: translateY(-9px);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+    }
+
+    .tarjetasServicios {
+        width: 140px
+    }
+
+    .tarjetasServicios h5 {
+        font-size: 20px;
+    }
+
+    .tarjetasServicios p {
+        font-size: 10px;
+    }
+
+    .divServicios {
+        display: none;
+    }
+
+    .divServiciosEscritorio {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
 }
