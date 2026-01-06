@@ -270,6 +270,12 @@ footer button {
     margin-top: 20px;
 }
 
+.divServiciosEscritorio {
+    display: none;
+}
+
+
+
 @media screen and (min-width: 1024px) {
     .sectionPresentacion {
         display: flex;
@@ -309,15 +315,49 @@ footer button {
     }
 
     .tarjetasServicios {
-        width: 140px
+        width: 280px;
+        height: 250px;
+        flex-direction: column;
+        border-radius: 25px;
+        justify-content: normal;
+        transition: 0.5s;
+        padding: 20px;
+        padding-bottom: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+
+    .tarjetasServicios:hover {
+        transform: translateY(-9px);
+        transition: 0.5s;
+        color: black;
+        background-color: white;
+    }
+
+    .tarjetasServicios img {
+        width: 40%;
+        margin-bottom: 20px;
+        transition: 0.5s;
+    }
+
+    .tarjetasServicios:hover img {
+        border-radius: 30px;
+        transition: 0.5s;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
     }
 
     .tarjetasServicios h5 {
-        font-size: 20px;
+        font-size: 30px;
+        line-height: 27px;
+        letter-spacing: -2px;
+        margin-bottom: 10px;
     }
 
     .tarjetasServicios p {
-        font-size: 10px;
+        font-size: 15px;
+        line-height: 16px;
     }
 
     .divServicios {
