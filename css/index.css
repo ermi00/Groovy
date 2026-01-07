@@ -46,6 +46,13 @@ ul {
     margin-bottom: 0px;
 }
 
+a {
+    width: 100%;
+    text-decoration: none;
+    transition: 0.5s;
+    text-align: center;
+}
+
 button {
     padding: 15px 40px;
     margin-top: 20px;
@@ -288,9 +295,11 @@ footer button {
     display: none;
 }
 
-
-
 @media screen and (min-width: 1024px) {
+
+    body {
+        padding: 5%;
+    }
 
     .sectionPortafolio {
         margin-left: 0;
@@ -319,6 +328,10 @@ footer button {
     }
 
     .btnMobileContacto {
+        display: none;
+    }
+
+    .abtnMobileContacto{
         display: none;
     }
 
@@ -498,15 +511,42 @@ footer button {
     .InfoDivFooter {
         display: block;
     }
-
-
-
 }
 
 @media screen and (min-width: 1440px) {
     body {
         margin-left: 15%;
         margin-right: 15%;
+        padding: 0;
+    }
+
+}
+
+@media screen and (min-width: 2560px) {
+    body {
+        margin-left: 25%;
+        margin-right: 25%;
+        padding: 0;
+    }
+
+    .sectionPresentacion {
+        margin-top: 0;
+    }
+
+    .sectionServicios {
+        margin-top: 5%;
+    }
+
+    .sectionPortafolio {
+        margin-top: 5%;
+    }
+
+    .sectionNosotrosEscritorio {
+        margin-top: 10%;
+    }
+
+    footer {
+        margin-top: 5%;
     }
 
 }
